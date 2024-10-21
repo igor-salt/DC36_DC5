@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -68,9 +68,9 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
-    "repo_type": "",
-    "repo_username": "",
+    "repo_password": "dksjwamiqhmy8sj",
+    "repo_type": "https",
+    "repo_username": "igor.saltanovskii.62@gmail.com",
     "ssh_key": ""
   },
   "meta": {

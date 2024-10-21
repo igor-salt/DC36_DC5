@@ -2470,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41919950-7d17-4ce0-8da6-9a5754ff93c5")
-		(property "Reference" "H3"
+		(property "Reference" "H4"
 			(at 214.63 50.7999 90)
 			(effects
 				(font
@@ -2522,7 +2522,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4687c900-1532-4162-8305-8ce049608c85")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 213.36 85.0899 90)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2743,7 +2743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a92e1db-4160-4c70-a40d-179ecc939ce6")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 177.8 72.3899 0)
 			(effects
 				(font
@@ -2797,7 +2797,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2810,7 +2810,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c901f84-79e9-4d1c-97a0-00390cd3a66c")
 		(property "Reference" "RV1"
 			(at 148.336 38.1 0)
@@ -3088,7 +3088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95ab80a2-3cb0-4e03-ae3f-8cfcd0ee53eb")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 176.53 44.4499 0)
 			(effects
 				(font
@@ -3142,7 +3142,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+		(property "Footprint" "DCDC:LM2596S"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef4acba-ae12-441b-a392-81f316d366b7")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 203.2 63.4999 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 		(instances
 			(project ""
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3442,7 +3442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2da81aa-09ad-4593-a6dd-90914a306984")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 195.58 44.4499 0)
 			(effects
 				(font
@@ -3496,7 +3496,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3579,7 +3579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e621324d-4be7-481f-8858-7edfc9b84fec")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 195.58 71.5009 0)
 			(effects
 				(font
@@ -3633,7 +3633,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd65266b-45c6-4bc9-a01e-b29442971066")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 176.53 33.0199 0)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 		(instances
 			(project "DC36_DC5"
 				(path "/b72e6314-4bbd-4fa4-856f-1f0e58b9b2bd"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)

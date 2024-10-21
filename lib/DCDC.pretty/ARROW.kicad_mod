@@ -1,0 +1,97 @@
+(footprint "ARROW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "ARROW"
+		(at 0 0 0)
+		(layer "User.1")
+		(hide yes)
+		(uuid "2fff8a21-c947-41e0-8c88-46f06f3d01f2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "ARROW"
+		(at 0.75 0 0)
+		(layer "User.2")
+		(hide yes)
+		(uuid "7b3c7bec-2af3-4c31-8b81-e19c10fa68f9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Footprint" "DCDC:ARROW"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5fe137e-0b80-43ac-8e2a-40144d0052e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecbe312c-9f62-448d-81e4-3156fc3f5fc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abbcf725-134a-4680-95d9-8038b83687dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.8)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d448b0a-dcf0-492d-a3a0-a8fe3ced0374")
+	)
+	(fp_line
+		(start 10 0)
+		(end 8.5 -1.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c48b8aab-fe4c-48c1-b9fd-bddf2e1ffc36")
+	)
+	(fp_line
+		(start 10 0)
+		(end 8.5 1.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc5a0e76-0c76-4677-9474-636904b96377")
+	)
+)
