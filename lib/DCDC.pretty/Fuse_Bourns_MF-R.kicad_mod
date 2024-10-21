@@ -1,0 +1,274 @@
+(footprint "Fuse_Bourns_MF-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, Ihold = 3.0A, Itrip=5.1A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "F1"
+		(at 2.55 -1.9 180)
+		(layer "F.SilkS")
+		(uuid "e3b236ce-12c0-4e5a-b2dc-117e6133918b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MF-R300, 3.0A"
+		(at 1.582 3.349 180)
+		(layer "F.Fab")
+		(uuid "6c73aeb2-2a15-409d-8be7-2b885e680980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DCDC:Fuse_Bourns_MF-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9eb51584-18d0-4d42-8710-7cedd0978ab5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8419821-e602-4db0-aaa2-f35eec2eb48c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fb8228d-452e-49e6-a71e-35c087206c36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.1 -1)
+		(end -1.1 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0b52178-f107-486a-9a89-d17f5b501e51")
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end -0.879 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1bda7fa-d08c-4845-a0c6-6cb08e8d8a3c")
+	)
+	(fp_line
+		(start -1.1 0.75)
+		(end -1.1 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec80fa20-c5c2-44c7-915b-cf68341be2f5")
+	)
+	(fp_line
+		(start -1.1 2.2)
+		(end 4.222 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e7f155e-4a11-4882-9d5b-4d8b685091f6")
+	)
+	(fp_line
+		(start 0.879 -1)
+		(end 6.2 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cb70119-bc48-4341-b5f0-fa22649409f9")
+	)
+	(fp_line
+		(start 5.979 2.2)
+		(end 6.2 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48303fdf-62ef-4905-a9aa-53a522c88764")
+	)
+	(fp_line
+		(start 6.2 -1)
+		(end 6.2 0.451)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fcc6298-3f5b-41a1-86bc-9d640e5cb01a")
+	)
+	(fp_line
+		(start 6.2 1.95)
+		(end 6.2 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16796954-2f36-4eac-af12-0dc2097ef0b8")
+	)
+	(fp_line
+		(start -1.25 -1.15)
+		(end -1.25 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a24f9c43-913d-4312-a6f2-90316470139f")
+	)
+	(fp_line
+		(start -1.25 2.35)
+		(end 6.35 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed3a98f9-cd50-45a2-a91c-6bb85e69bccd")
+	)
+	(fp_line
+		(start 6.35 -1.15)
+		(end -1.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61298f7b-0718-499c-839d-29073b3c4c03")
+	)
+	(fp_line
+		(start 6.35 2.35)
+		(end 6.35 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "344e2a21-2fec-4432-872f-dec536d51b25")
+	)
+	(fp_line
+		(start -1 -0.9)
+		(end -1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4b7cc3b-eabe-4c5e-8ba1-122c1a838639")
+	)
+	(fp_line
+		(start -1 2.1)
+		(end 6.1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34abf7ed-97c4-49dc-a2c8-bc829d774aa9")
+	)
+	(fp_line
+		(start 6.1 -0.9)
+		(end -1 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec84b778-0e61-4a17-b79f-c5a103240a51")
+	)
+	(fp_line
+		(start 6.1 2.1)
+		(end 6.1 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e75b1b56-c9c3-45e6-aad8-23ab53a8aca9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.55 0.6 180)
+		(layer "F.Fab")
+		(uuid "d347bcfa-83d0-4748-9172-16833e2bd819")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.01 3)
+		(drill 1.01
+			(offset 0 0.6)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1243781095)
+		(uuid "df461ada-03c2-4576-87d7-f7c00fc95154")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.1 1.2)
+		(size 2.01 3)
+		(drill 1.01
+			(offset 0 -0.6)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1243781095)
+		(uuid "856c4dfe-e910-4aae-b05e-f335c70ea0ac")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_BelFuse_0ZRE_0ZRE0005FF_L8.3mm_W3.8mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
