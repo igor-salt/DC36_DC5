@@ -2810,7 +2810,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7c901f84-79e9-4d1c-97a0-00390cd3a66c")
 		(property "Reference" "RV1"
 			(at 148.336 38.1 0)
@@ -3085,7 +3085,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "95ab80a2-3cb0-4e03-ae3f-8cfcd0ee53eb")
 		(property "Reference" "R2"
@@ -3716,7 +3716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd65266b-45c6-4bc9-a01e-b29442971066")
 		(property "Reference" "R1"
