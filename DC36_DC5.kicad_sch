@@ -2498,7 +2498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://trd.nov.ru/index.php?route=product/product&path=0000100489_0000100519_0000185788&product_id=204160"
+		(property "Datasheet" ""
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://trd.nov.ru/index.php?route=product/product&product_id=290229&search=%D1%88%D0%BE%D1%82%D1%82%D0%BA%D0%B8&sort=p.price&order=ASC"
+		(property "Datasheet" ""
 			(at 204.47 60.96 0)
 			(effects
 				(font
