@@ -2362,6 +2362,26 @@
 		)
 		(uuid "fec5e6b9-45d2-434c-b8a5-0419b1e11660")
 	)
+	(text_box "1. При установке подстроечного резистора RV1, не устанавливаются элементы поз. R1 R2 и наоборот.\n\n2. При использовании U1 в исполнении на фиксированное выходное напряжение, не устанавливаются\n элементы поз. R1, R2, RV1, C4, а на место R2 устанавливается перемычка.\n\n3. Посадочные места элементов D1, D2 допускают установку подходящих по параметрам диодов в корпусах\nDPAK, D2PAK, SMB, SMC; D4 - SMB, SMC.\n\n4. Посадочные места элементов С2, С5 - допускают установку подходящих по параметрам конденсаторов\nв корпусах 8 и 10 мм.\n\n5. Посадочное место L1 позволяет устанавливать дроссели типоразмеров от 10х10 до 18х18.\n\n"
+		(exclude_from_sim no)
+		(at 41.91 107.95 0)
+		(size 120.65 85.09)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "7eeeaeba-76c0-45d9-aa66-1b05fff5777d")
+	)
 	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 149.86 72.39 270)
@@ -2381,7 +2401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STPS20M100SG"
+		(property "Value" "SS520"
 			(at 152.4 73.3424 90)
 			(effects
 				(font
@@ -2408,7 +2428,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "SS520, SMT выпрямительный диод Шоттки, 200В, 5А (DO-214AB (SMC))"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014859847 "
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -2478,7 +2507,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "L-C170GCT, светодиод зеленый 12.5мКд SMD 0805"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2015697923 "
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -2558,6 +2596,15 @@
 				(hide yes)
 			)
 		)
+		(property "Platan SKU" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa4d8de7-5c05-4768-8bde-bf751bbb71b9")
 		)
@@ -2626,6 +2673,15 @@
 				(hide yes)
 			)
 		)
+		(property "Platan SKU" ""
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f53901b-fa2f-4a40-a1a7-e4b205b412b2")
 		)
@@ -2656,7 +2712,7 @@
 				)
 			)
 		)
-		(property "Value" "STPS20M100SG"
+		(property "Value" "SS520"
 			(at 93.0275 52.07 0)
 			(effects
 				(font
@@ -2682,7 +2738,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "SS520, SMT выпрямительный диод Шоттки, 200В, 5А (DO-214AB (SMC))"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014859847 "
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -2821,7 +2886,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM188R60J106ME47D, Конденсаторы керамические"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014968057 "
 			(at 173.99 73.66 0)
 			(effects
 				(font
@@ -2897,6 +2971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Platan SKU" ""
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91cfa10b-f5d0-4eb0-bd90-805461362ed3")
 		)
@@ -2961,7 +3044,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "EEHZA1H680P, SMD эл-лит 50V 68uF /8*10.2/105 C Polymer Hybrid"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2015341406 "
 			(at 107.95 73.66 0)
 			(effects
 				(font
@@ -3030,7 +3122,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "MF-R300, 3.0A самовосстанавливающийся предохранитель"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "38409 "
 			(at 71.12 55.88 0)
 			(effects
 				(font
@@ -3108,6 +3209,15 @@
 				(hide yes)
 			)
 		)
+		(property "Platan SKU" ""
+			(at 53.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11f010bc-a7fa-4ffe-ad5b-0afceb8a0da9")
 		)
@@ -3166,7 +3276,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-073K09L, 0805, чип 0805      3.09К 1%"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2010018418 "
 			(at 173.99 45.72 0)
 			(effects
 				(font
@@ -3236,7 +3355,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
+		(property "Description" "LM2596SX-ADJ, TO263-5"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "344157231 "
 			(at 132.08 58.42 0)
 			(effects
 				(font
@@ -3315,6 +3443,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" ""
 			(at 53.34 86.36 0)
 			(effects
 				(font
@@ -3450,7 +3587,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-07200RL, Резисторы постоянные"
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014969702 "
 			(at 218.44 69.85 0)
 			(effects
 				(font
@@ -3520,7 +3666,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CC1206JRNPO9BN122, Конденсаторы керамические"
+			(at 184.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014969669 "
 			(at 184.15 46.99 0)
 			(effects
 				(font
@@ -3587,7 +3742,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
+		(property "Description" "IHLP6767DZER470M11, SMD 17.15*17.15*4"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2016862973 "
 			(at 162.56 60.96 0)
 			(effects
 				(font
@@ -3629,7 +3793,7 @@
 				)
 			)
 		)
-		(property "Value" "SS56 60V/5A"
+		(property "Value" "SS520"
 			(at 204.7875 57.15 0)
 			(effects
 				(font
@@ -3655,7 +3819,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "SS520, SMT выпрямительный диод Шоттки, 200В, 5А (DO-214AB (SMC))"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014859847 "
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -3725,7 +3898,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "EEEFK1V331P, ЧИП электролит.конд.  330мкф  35В 105гр,  10x10.2(G) 2т.ч"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "403869617 "
 			(at 191.77 73.66 0)
 			(effects
 				(font
@@ -3795,7 +3977,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM188R60J106ME47D, Конденсаторы керамические"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2014968057 "
 			(at 82.55 73.66 0)
 			(effects
 				(font
@@ -3865,7 +4056,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CR0805-FX-1001ELF, чип резистор 0805 1кОм"
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Platan SKU" "2010220531 "
 			(at 173.99 34.29 0)
 			(effects
 				(font
