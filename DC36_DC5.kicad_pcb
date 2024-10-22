@@ -86,9 +86,9 @@
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -107,11 +107,11 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
@@ -708,7 +708,7 @@
 		(descr "TO-263 / D2PAK / DDPAK SMD package, tab to pin 1, https://www.wolfspeed.com/media/downloads/137/C3D06060G.pdf")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404 diode")
 		(property "Reference" "D1"
-			(at -10.945 0.067 360)
+			(at -10.945 0.067 0)
 			(layer "F.SilkS")
 			(uuid "04de251d-07f5-4b8e-9c7f-eba834b0f018")
 			(effects
@@ -8418,7 +8418,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV1"
-			(at -8.763 1 360)
+			(at -8.763 1 0)
 			(layer "F.SilkS")
 			(uuid "ee6dbb03-fce6-4ab8-be89-8bf209f945ae")
 			(effects
@@ -8429,7 +8429,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at -8.826 -1.921 360)
+			(at -8.826 -1.921 0)
 			(layer "F.Fab")
 			(uuid "a7b5901d-b9b2-48f5-b3f0-ccc92e878747")
 			(effects
@@ -9201,7 +9201,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at -2.9 0.293 360)
+			(at -2.9 0.293 0)
 			(layer "F.SilkS")
 			(uuid "08788287-bdca-4e5d-b0da-e7bb52e7ffd3")
 			(effects
@@ -10146,72 +10146,6 @@
 			)
 			(justify left bottom)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "05423b50-c48e-43b8-b06d-abeac7be77fa")
-		(pts
-			(xy 88.773 113.963) (xy 157.773 113.963)
-		)
-		(height 7.957)
-		(gr_text "69.0000 mm"
-			(at 123.273 120.12 0)
-			(layer "F.Cu")
-			(uuid "05423b50-c48e-43b8-b06d-abeac7be77fa")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "e89cda26-bec5-468b-a12d-efb6139f06db")
-		(pts
-			(xy 88.773 76.454) (xy 88.773 115.443)
-		)
-		(height 10.795)
-		(gr_text "38.9890 mm"
-			(at 76.178 95.9485 90)
-			(layer "F.Cu")
-			(uuid "e89cda26-bec5-468b-a12d-efb6139f06db")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 128.524 104.042)
@@ -12194,7 +12128,7 @@
 				(xy 115.257666 113.221814) (xy 115.332227 113.246521) (xy 115.396667 113.288904) (xy 115.399063 113.291664)
 				(xy 115.534056 113.451064) (xy 115.564252 113.513649) (xy 115.564802 113.513483) (xy 115.565868 113.516999)
 				(xy 115.566487 113.518281) (xy 115.566924 113.520479) (xy 115.566927 113.520488) (xy 115.595108 113.588523)
-				(xy 115.634808 113.684368) (xy 115.644518 113.6989) (xy 115.690397 113.767562) (xy 115.733358 113.831858)
+				(xy 115.634808 113.684368) (xy 115.683352 113.75702) (xy 115.683356 113.757024) (xy 115.733358 113.831858)
 				(xy 116.140536 114.239035) (xy 116.265965 114.364464) (xy 116.413453 114.463013) (xy 116.413455 114.463014)
 				(xy 116.413457 114.463015) (xy 116.461451 114.482895) (xy 116.461452 114.482895) (xy 116.577334 114.530895)
 				(xy 116.751309 114.5655) (xy 119.722691 114.5655) (xy 119.896666 114.530894) (xy 120.060547 114.463013)
@@ -12494,7 +12428,7 @@
 				(xy 135.2465 78.789718) (xy 135.2465 79.163929) (xy 135.226538 79.238429) (xy 135.172 79.292967)
 				(xy 135.106612 79.31265) (xy 130.331611 79.60521) (xy 130.25603 79.589841) (xy 130.198259 79.538741)
 				(xy 130.173778 79.465601) (xy 130.173499 79.456489) (xy 130.173499 78.128136) (xy 130.173499 78.128128)
-				(xy 130.167091 78.068517) (xy 130.130283 77.969829) (xy 130.116797 77.93367) (xy 130.116795 77.933666)
+				(xy 130.167091 78.068517) (xy 130.152588 78.029633) (xy 130.116797 77.93367) (xy 130.116795 77.933666)
 				(xy 130.030547 77.818455) (xy 130.030544 77.818452) (xy 129.915333 77.732204) (xy 129.915329 77.732202)
 				(xy 129.780482 77.681908) (xy 129.720876 77.6755) (xy 116.825136 77.6755) (xy 116.825111 77.675502)
 				(xy 116.765521 77.681908) (xy 116.765515 77.681909) (xy 116.63067 77.732202) (xy 116.630666 77.732204)
